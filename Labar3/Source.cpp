@@ -43,7 +43,7 @@ int main() {
 	char a;
 	char In[81], Out[81];
 	int k = 0, l = 0;
-	cout << "Ââåäèòå ôîğìóëó: ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ„Ğ¾Ñ€Ğ¼ÑƒĞ»Ñƒ: ";
 	cin >> In; 
 	while (In[k] != '\0') {
 		if (In[k] >= 'a' && In[k] <= 'z') {
@@ -81,14 +81,14 @@ int main() {
 		l++;
 	}
 	Out[l] = '\0';
-	cout << "\n Ïîëüñêàÿ = " << Out << endl;
-	cout << "Ğåçóëüòàò = " << fixed << setprecision(2) << Result(Out) << endl;
+	cout << "\n ĞŸĞ¾Ğ»ÑŒÑĞºĞ°Ñ = " << Out << endl;
+	cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚ = " << fixed << setprecision(2) << Result(Out) << endl;
 }
 double Result(char* str) {
 	int i;
 	char ss, ss1, ss2, ssR = 'z' + 1;
 	double op1, op2, res = 0, mas[200];
-	cout << "Âõîäíûå äàííûå: " << endl;
+	cout << "Ğ’Ñ…Ğ¾Ğ´Ğ½Ñ‹Ğµ Ğ´Ğ°Ğ½Ğ½Ñ‹Ğµ: " << endl;
 	for (i = 0; str[i] != '\0'; ++i) {
 		ss = str[i];
 		if (ss >= 'a' && ss <= 'z') {
